@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body{
+  width: 100%;
+}
 
 .center {
   max-width: 1100px;
@@ -15,24 +18,22 @@
 
 header {
   background-color: rgb(16, 46, 46);
-  padding: 20px 0;
+  padding: 0px 0;
 
   border-bottom: 3px solid rgb(143, 143, 225);
 }
 
-.logo {
-  color:rgb(16, 46, 46);
-  text-align: left;
-  font-size: 50px;
-  padding: 5px;
-  margin:0;
-  background-color: rgb(225, 93, 11);
-  border-radius: 50%;
-  border: red;
+.logo{
+  color:rgb(255, 255, 255);
+  top: 40%;
+  font-size: 20px;
+  
+  margin:15, 0;
+  
 
 }
 .logo h2 {
-  font-weight: normal;
+  margin-top: 20%;
   font-size: 18px;top: 10px;
 }
 .menu {
@@ -45,7 +46,7 @@ header {
   color: white;
   font-size: 14px;
   text-decoration: none;
-  
+  margin:10px;
   transition: 0.5s;
 }
 
