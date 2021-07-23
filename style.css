@@ -14,40 +14,49 @@
 }
 
 header {
-  background-color: white;
+  background-color: rgb(16, 46, 46);
   padding: 20px 0;
 
-  border-bottom: 1px solid rgb(208, 208, 210);
+  border-bottom: 3px solid rgb(143, 143, 225);
 }
 
 .logo {
-  color: rgb(0, 0, 16);
+  color:rgb(16, 46, 46);
+  text-align: left;
+  font-size: 50px;
+  padding: 5px;
+  margin:0;
+  background-color: rgb(225, 93, 11);
+  border-radius: 50%;
+  border: red;
+
 }
 .logo h2 {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 18px;top: 10px;
 }
 .menu {
   width: 80%;
   text-align: right;
+
 }
 
-.menu a {
-  color: rgb(95, 95, 232);
+ a {
+  color: white;
   font-size: 14px;
   text-decoration: none;
-  margin-right: 30px;
+  
   transition: 0.5s;
 }
 
 .menu a:hover {
-  color: rgb(92, 92, 252);
+  color: rgb(16, 46, 46);
 }
 
 .menu .btn-menu {
-  background-color: rgb(52, 52, 230);
+  background-color: rgb(225, 93, 11);
   display: inline-block;
-  padding: 11px 26 px;
+  padding: 11px 26px;
   color: white;
   border-radius: 6px;
   font-size: 20px;
@@ -55,7 +64,7 @@ header {
 }
 
 menu .btn-menu::hover {
-  background-color: rgb(31, 31, 159);
+  background-color: rgb(16, 46, 46);
   color: white;
 }
 
@@ -88,17 +97,18 @@ section.main {
 }
 
 .main_cta button {
-  background-color: blue;
+  background-color: rgb(225, 93, 11);
   display: inline-block;
-  padding: 8px 30px;
-  color: white;
+  padding: 12px 70px ;
+  color: rgb(0, 0, 0);
   border-radius: 6px;
   font-size: 16px;
   border: 0px;
   cursor: pointer;
+  
 }
 .main_cta button::hover {
-  background-color: rgb(31, 31, 159);
+  background-color: rgb(16, 46, 46);
   color: white;
 }
 
@@ -117,12 +127,12 @@ section.main {
 }
 
 .diferencial-single i {
-  color: blue;
+  color: rgb(16, 46, 46);
   font-size: 23px;
 }
 
 .deferencial-single h2 {
-  color: blue;
+  color: rgb(16, 46, 46);;
   margin: 10px 0;
   font-size: 17px;
 }
